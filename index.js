@@ -28,7 +28,7 @@ if (config.log && config.log.length > 0) {
 var ExAstris = require('./modules/exastris');
 var exastris = new ExAstris(log, db, config);
 
-// Handle sitint events
+// Handle sigint events
 if (process.platform === "win32") {
     var rl = require("readline").createInterface({
         input: process.stdin,

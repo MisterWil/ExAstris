@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wschrader",
-  "license": "BSD-2-Clause",
+  "author": "Wil Schrader",
+  "repository": "misterwil/exastris",
+  "license": "MIT",
   "dependencies": {
     "html-entities": "1.2.*",
     "irc": "0.4.*",

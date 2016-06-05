@@ -4,3 +4,5 @@ config/config.js
 *.log
 
 *.db
+
+node_modules/*
