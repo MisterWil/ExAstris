@@ -1,0 +1,26 @@
+{
+  "name": "exastris",
+  "version": "1.0.0",
+  "description": "Node IRC Bot with Social Media Hooks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wschrader",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "html-entities": "1.2.*",
+    "irc": "0.4.*",
+    "twit": "2.1.*",
+    "nedb": "1.5.*",
+    "bristol": "0.3.*",
+    "loggly": "1.0.*",
+    "natural": "0.1.*",
+    "snoocore": "3.2.*",
+    "merge": "1.2.*",
+    "request": "2.67.*",
+    "cheerio": "0.*",
+    "deep-diff": "0.3.*",
+    "tree-model": "1.0.*"
+  }
+}

@@ -1,0 +1,6 @@
+
+config/config.js
+
+*.log
+
+*.db
