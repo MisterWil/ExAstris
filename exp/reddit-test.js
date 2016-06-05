@@ -10,7 +10,7 @@ var reddit = new Snoocore({
         key: 'l7X4Hsc_rvCwbg',
         secret: 'hnFJo2OEDk__wiwEPV8wSs7jx3A',
         username: 'MisterWil',
-        password: 'PooperInsideLostCapes',
+        password: 'NotReallyMyPasswordLol',
         scope: [ ]
     }
 });
