@@ -1,0 +1,27 @@
+Command Story
+  - Ex: Start following @elonmusk
+
+  Has a distinct followTwitterUser intent (follow)
+  Has a distinct toggle (start)
+  Has a distinct twitterUser (@elonmusk)
+
+  - Ex: Follow elonmusk
+
+  Has a distinct followTwitterUser intent (follow)
+  Doesn't have a toggle
+  Doesn't have a distinct twitteruser
+  Does have a substring "elonmusk".
+
+  - Ex: Don't follow elon musk anymore
+
+  Has a command intent (follow) - followTwitterUser
+  Has a negative direction (don't)
+  Has a string "elon musk anymore" that it may be able to use to find an actual twitter user.
+
+  This is made up of a classifier (follow).
+  A keyword matcher (start, don't)
+  A substring extractor (elonmusk, elon musk anymore).
+
+story.name = "Toggle following Twitter User"
+story.intent = "followTwitterUser"
+story.

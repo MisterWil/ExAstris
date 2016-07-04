@@ -22,6 +22,7 @@
     "request": "2.67.*",
     "cheerio": "0.*",
     "deep-diff": "0.3.*",
-    "tree-model": "1.0.*"
+    "tree-model": "1.0.*",
+    "nlp_compromise": "6.*"
   }
 }
